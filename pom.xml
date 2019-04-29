@@ -72,4 +72,16 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+  <repository>
+    <id>WebAppRelease</id>
+    <url>http://localhost:8081/nexus/content/repositories/WebAppRelease</url>
+  </repository>
+</distributionManagement>
+   <distributionManagement>
+  <snapshotRepository>
+    <id>WebAppSnapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/WebAppSnapshot</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
